@@ -1,0 +1,170 @@
+﻿@{
+    ViewBag.Title = "CreaVista1";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    @*<link href="~/sent/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/sent/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/sent/css/bootstrap.css" rel="stylesheet" />*@
+    @*<link href="~/sent/css/bootstrap.min.css" rel="stylesheet" />*@
+    <title>Como crear una tabla con divs</title>
+    <style type="text/css">
+
+        .Table {
+            display: table;
+        }
+
+        .Title {
+            display: table-caption;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+        }
+
+        .Heading {
+            display: table-row;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .Row {
+            display: table-row;
+        }
+
+        .Cell {
+            display: table-cell;
+            border: solid;
+            border-width: thin;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>CreaVista1</h2>
+    <hr />
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <form id="form1" runat="server">
+        <div class="Table">
+
+            <div class="Title">
+
+                <p>
+
+                    Esta es la tabla
+                </p>
+
+            </div>
+
+            <div class="Heading">
+
+                <div class="Cell">
+
+                    <p>
+
+                        Primer Nombre
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        Segundo Nombre
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        Edad
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="Row">
+
+                <div class="Cell">
+
+                    <p>
+
+                        Juan
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        Escutia
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        28
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="Row">
+
+                <div class="Cell">
+
+                    <p>
+
+                        Pedro
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        Infante
+                    </p>
+
+                </div>
+
+                <div class="Cell">
+
+                    <p>
+
+                        27
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+    @*<script src="~/sent/js/bootstrap.bundle.js"></script>
+    <script src="~/sent/js/bootstrap.bundle.min.js"></script>
+    <script src="~/sent/js/bootstrap.js"></script>
+    <script src="~/sent/js/bootstrap.min.js"></script>*@
+</body>
+</html>
+
+
+
